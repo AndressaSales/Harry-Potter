@@ -1,4 +1,5 @@
 import Books from "./Books";
+import Hauses from "./Hauses";
 
 export default function Container(){
     return(
@@ -10,7 +11,9 @@ export default function Container(){
                 <hr />
                 <div>
                     <Books />
-                </div>
+                    <hr />
+                    <Hauses />
+                </div> 
             </div>
         </>
     )
