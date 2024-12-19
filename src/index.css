@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/parry-hotter');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,17 +10,20 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-body{
+
+html{
     padding: 20px;
-    background-color: #3333;
-}
-.b{
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #000;
 }
 
-.s{
-    box-shadow: rgba(240, 46, 72, 0.4) 5px 5px, rgba(240, 46, 46, 0.3) 10px 10px, rgba(240, 46, 78, 0.2) 15px 15px, rgba(240, 46, 85, 0.1) 20px 20px, rgba(240, 46, 46, 0.05) 25px 25px;
+.title{
+    font-family: 'Parry Hotter', sans-serif;
 }
-.sa{
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+.background{
+    background: rgba(249, 249, 249, 0.653);
+}
+
+input::placeholder{
+    color: #000;
 }

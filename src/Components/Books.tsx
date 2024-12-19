@@ -16,7 +16,7 @@ export default function Books(){
         <>
             <div>
                 <h1 className="text-center p-4 font-bold text-[32px]">Livros</h1>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-7">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-7">
                     {
                         book.map((b) => {
                             return(
@@ -24,9 +24,9 @@ export default function Books(){
                                     <div className="items-center justify-center flex">
                                      <img src={b.cover} alt={b.title} className=" rounded-md s" />
                                     </div>
-                                    <h1 className="text-center pt-[15px] font-bold text-xl">{b.title}</h1>
-                                    <p className=" font-mono text-sm text-center">{b.releaseDate}</p>
-                                    <p className="text-center font-serif">{b.description}</p>
+                                    <h1 className="text-center pt-[15px] font-bold text-xl text-[#fff] title">{b.title}</h1>
+                                    <p className=" font-mono text-sm text-center text-[#fff] title">{b.releaseDate}</p>
+        
                                     
                                 </div>
                             )
